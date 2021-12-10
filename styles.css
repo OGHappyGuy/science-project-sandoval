@@ -4,7 +4,28 @@ html {
 }
 
 body {
-  background-image: url(backgr.jpg);
+  background: hsl(266, 94%, 41%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 100%;
   min-height: 100%;
+  overflow: hidden;
+}
+
+button {
+  width: 30%;
+  height: 20%;
+  font-size: 40px;
+  color: white;
+  background: none;
+  border: white;
+  border-style: solid;
+  margin: 5%;
+}
+
+button:hover {
+  transition: font-size .25s, width .25s;
+  font-size: 45px;
+  width: 40%;
 }
