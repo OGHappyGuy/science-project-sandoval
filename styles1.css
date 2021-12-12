@@ -1,0 +1,21 @@
+body {
+  background: hsl(266, 94%, 41%);
+}
+
+button {
+  border-style: solid;
+  border-color: white;
+  background: none;
+  color: white;
+  position: absolute;
+  left: 2.5%;
+  top: 5%;
+  width: 8%;
+  height: 5%;
+  font-size: 25px;
+}
+
+button:hover {
+  color: gray;
+  border-color: gray;
+}

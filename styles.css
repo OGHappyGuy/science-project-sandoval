@@ -19,7 +19,7 @@ button {
   font-size: 40px;
   color: white;
   background: none;
-  border: white;
+  border-color: white;
   border-style: solid;
   margin: 5%;
 }
