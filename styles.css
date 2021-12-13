@@ -4,13 +4,16 @@ html {
 }
 
 body {
-  background: hsl(266, 94%, 41%);
   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 100%;
   min-height: 100%;
   overflow: hidden;
+  animation-name: background;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 button {
@@ -28,4 +31,13 @@ button:hover {
   transition: font-size .25s, width .25s;
   font-size: 45px;
   width: 40%;
+}
+
+@keyframes background {
+  from {
+    background-color: hsl(244, 94%, 41%);
+  }
+  to {
+    background-color: rgb(9, 9, 105);
+  }
 }

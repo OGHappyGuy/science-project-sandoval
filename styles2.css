@@ -1,5 +1,8 @@
 body {
-  background: hsl(266, 94%, 41%);
+  animation-name: background;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 button {
@@ -18,4 +21,13 @@ button {
 button:hover {
   color: gray;
   border-color: gray;
+}
+
+@keyframes background {
+  from {
+    background-color: hsl(244, 94%, 41%);
+  }
+  to {
+    background-color: rgb(9, 9, 105);
+  }
 }
