@@ -11,6 +11,17 @@ body {
   animation-direction: alternate;
   animation-iteration-count: infinite;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 button {
@@ -24,6 +35,18 @@ button {
   width: 8%;
   height: 5%;
   font-size: 25px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: lightgray;
 }
 
 button:hover {
